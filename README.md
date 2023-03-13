@@ -33,4 +33,4 @@ You can either manually invalidate cloudfront or use local-exec provisioner to l
 
 _For Backend please review the CloudResume-Backend repository  
 
-[AWS Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/)by Forrest Brazeal
+[AWS Cloud Resume Challenge ](https://cloudresumechallenge.dev/docs/the-challenge/aws/)by Forrest Brazeal
