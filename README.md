@@ -31,4 +31,6 @@ How I achieved the goal:
 In the end:  
 You can either manually invalidate cloudfront or use local-exec provisioner to let Cloudfront re-cache after updating HTML files into S3
 
-_For Backend please review the CloudResume-Backend repository
+_For Backend please review the CloudResume-Backend repository  
+
+[AWS Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/)by Forrest Brazeal
