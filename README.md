@@ -25,7 +25,7 @@ These are the steps that are part of the challenge:
 
 How I achieved the goal:
 
--To upload Webiste HTML files to S3 bucket, I created another repository on GitHub   
+-To upload Website HTML files to S3 bucket, I created another repository in GitHub   
 -Wrote a CICD pipeline in GitHub Actions to install AWS CLI and use COPY to add files into S3       
   
 In the end:  
