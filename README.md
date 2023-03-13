@@ -23,7 +23,10 @@ These are the steps that are part of the challenge:
 
 How I achieved the goal:
 
--To upload Webiste HTML files to S3 bucket, I created another repository on GitHub 
--Wrote a CICD pipeline in GitHub Actions to install AWS CLI and use COPY to add files into S3     
+-To upload Webiste HTML files to S3 bucket, I created another repository on GitHub   
+-Wrote a CICD pipeline in GitHub Actions to install AWS CLI and use COPY to add files into S3       
+  
+In the end:  
+You can either manually invalidate cloudfront or use local-exec provisioner to let Cloudfront re-cache after updating HTML files into S3
 
 _For Frontend please review the CloudResume-Frontend repository
