@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan Chugh</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+</head>
+
+<body>
+
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brand font-staat font-size-40"></a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about_me"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+                        <a href="#work"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Work Experience</a>
+                        <a href="#awards"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Certification & Skills</a>
+                        <a href="#portfolio"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Education</a>
+                        <a href="#footer"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact Me</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+    </header>
+    <!-- #header area -->
+
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+
+                <!-- site-banner area -->
+                <section class="site-banner bg-light" id="home">
+                    <div class="banner-area">
+                        <div class="author text-center">
+                            <div class="author-img"></div>
+                            <h1 class="text-black font-staat font-size-40 text-uppercase py-3">Karan Chugh</h1>
+                            <h5 class="text-black font-ram font-size-27">I'm a <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- #site-banner area -->
+
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about_me">
+                    <div class="me py-5">
+                        
+                        <h1 class="text-uppercase font-staat font-size-34">Summary</h1>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-5 pl-0">
+                            <img src="./assets/banner.png" alt="profile image" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
+   
+                            <p class="font-ram text-black-50 py-2">
+                                AWS Certified Cloud professional with exceptional problem-solving skills thrive to build scalable,
+                                fault tolerant cloud infrastructure solutions. With AWS hands on experience and in-depth knowledge 
+                                of cloud principles and technologies, my goal is to create cloud solutions with industry best practices.
+                            </p>
+                            <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram"><b>Website: </b><span
+                                            class="text-black-50">karanchugh.ca</span></p>
+                                </div>
+                            </div>
+                            <button type="submit" onclick="window.open('/assets/KaranResume.pdf')"
+                                class="btn btn-dark text-uppercase mr-3">Download CV</button>
+                            <p> <br><br> </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
+
+                <!-- ability -->
+                <section class="skill px-4 py-5 bg-light" id="work">
+                    <div class="ability py-3">
+                     <!--<h5 class="text-uppercase font-os font-size-16 text-muted">Ability</h5> -->
+                        <h1 class="text-uppercase font-staat font-size-34">work experience</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 pl-4">
+                            <!-- Lakepearl -->
+                            <div>
+                            <span class="text-uppercase font-staat font-size-20">Lake Pearl Solutions</span> <span class="text-uppercase font-os font-size-16 text-muted"> - Cloud Developer</span> <span class="text-uppercase font-staat font-size-16 text-muted float-right">Mississauga</span>
+                            </div>
+                            <div>
+                            <span class="text-uppercase font-staat font-size-18"> &nbsp;&nbsp;Project: </span> <span class=" font-os font-size-16 text-muted">Creating serverless infrastructure to capture data through a website</span> <span class="text-uppercase font-staat font-size-16 text-muted float-right">Mar. 2022 – Present</span>
+                            </div>
+                            <div>
+                            <span class=" font-staat font-size-17"> &nbsp;&nbsp;Technologies used: </span> <span class="font-ram font-size-16 text-black-50 pb-3">Terraform, GitHub Actions, S3, DynamoDB, Lambda, API gateway, Route 53, Cloudfront, GitHub VCS</span> 
+                            </div>
+                            <h6 class=" font-staat font-size-17">&nbsp;&nbsp;Responsibilites: </h6>
+                            <pre class="font-ram font-size-16 text-black-50 pb-3">
+●	Initializing terraform remote backed for state locking using DynamoDB and S3
+●	Configuring S3 encryption, versioning, public access to store website files
+●	Setting up databases on DynamoDB to store and update customer data
+●	Invoking Lambda function via JS to access and update DynamoDB
+●	Creating API gateway to communicate between website and lambda function using RESTful
+●	Creating Hosted zone in Route 53 and managing DNS records
+●	Deploying CloudFront to improve website distribution & security using TLS certificate
+●	Implementing Terraform modules to create, manage and deploy AWS IaC
+●	Creating CICD pipeline using GitHub Actions for frontend and backend
+●	Monitoring infrastructure performance using CloudWatch & health checks
+                            </pre>
+                            <!-- CNX -->
+                            <div>
+                            <span class="text-uppercase font-staat font-size-20">Concentrix</span>  <span class="text-uppercase font-staat font-size-16 text-muted float-right">Mississauga</span>
+                            </div>
+                            <div>
+                            <span class="text-uppercase font-os font-size-16 text-muted"> Technical Support Analyst </span> <span class="text-uppercase font-staat font-size-16 text-muted float-right">Sept. 2020 – Jan. 2022</span>
+                            </div>
+                            <h6 class=" font-staat font-size-17">&nbsp;Responsibilites: </h6>
+                            <pre class="font-ram font-size-16 text-black-50 pb-3">
+●	Provided technical assistance to 50+ customers weekly, communicating via email and phone
+●	Configured, installed and maintained VPN network software and ensured connectivity with cloud server.
+●	Identified, investigated and resolved VPN issues using Remote LogMeIn Rescue to ensure Network IP address and DNS are configured correctly
+                            </pre>
+
+                            <!-- ProAce -->
+                            <div>
+                            <span class="text-uppercase font-staat font-size-20">Proace Business Solutions</span>  <span class="text-uppercase font-staat font-size-16 text-muted float-right">Brampton</span>
+                            </div>
+                            <div>
+                            <span class="text-uppercase font-os font-size-16 text-muted"> IT Technician </span> <span class="text-uppercase font-staat font-size-16 text-muted float-right">Sept. 2019 - Aug. 2020</span>
+                            </div>
+                            <h6 class=" font-staat font-size-17">&nbsp;Responsibilites: </h6>
+                            <pre class="font-ram font-size-16 text-black-50 pb-3">
+●	Provided basic application and software guidance to the customers
+●	Multitask and perform troubleshooting across Windows/Mac operating systems
+●	Performing software repairs, installation of an operating system, drivers install/upgrade
+                            </pre>
+
+                            <!-- Thakar Infotech -->
+                            <div>
+                            <span class="text-uppercase font-staat font-size-20">Thakar Infotech</span>  <span class="text-uppercase font-staat font-size-16 text-muted float-right">Chandigarh, India</span>
+                            </div>
+                            <div>
+                            <span class="text-uppercase font-os font-size-16 text-muted"> QA Analyst </span> <span class="text-uppercase font-staat font-size-16 text-muted float-right">Jun 2017 - Jun 2018</span>
+                            </div>
+                            <h6 class=" font-staat font-size-17">&nbsp;Responsibilites: </h6>
+                            <pre class="font-ram font-size-16 text-black-50 pb-3">
+●	Gained knowledge of website development including HTML, CSS
+●	Created and assigned JIRA tasks to application developer after identifying test failures
+●	Analyzed and documented results of IT system tests and reported status to management
+
+                            </pre>
+
+                        </div>
+                </section>             
+                <!-- #ability -->
+
+
+                <!-- awards -->
+                <section class="awards px-4 py-5" id="awards">
+                    <div class="do py-5">
+                        
+                        <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-award"></i>certifications</h1>
+                    </div>
+                    <div class="w-100">
+                        <ul class="fa-ul mb-0 font-ram font-size-16 text-black-50 pb-3">
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                AWS Certified Solutions Architect Associate
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="do py-5">
+                        <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-award"></i> SKILLS AND INTERESTS</h1>
+                        <pre class="font-ram font-size-16 text-black-50 pb-3">
+●	Cloud Platform: AWS EC2, S3, ALB, ASG, SQS, SNS, CloudWatch, Cloud Formation
+●	Infrastructure as Code: Terraform
+●	CICD: GitHub Actions
+●	Scripting: Bash
+●	Knowledge of Linux OS
+●	Python 
+●	Visualization: Tableau
+●	Excellent communication, analytical and critical thinking skills, problem solving, attention to detail
+
+                            </pre>
+                     </div>
+                </section>
+
+                <!--education-->
+                <section class="awards px-4 py-5" id="portfolio">
+                    <div class="do py-5">
+                        <h1 class="text-uppercase font-staat font-size-34">Education</h1>
+                        <div>
+                        <span class="text-uppercase font-staat font-size-20">Fanshawe College :&nbsp; </span> <span class=" font-os font-size-16 text-muted">Graduate Certificate Program</span> <span class="text-uppercase font-staat font-size-16 text-muted float-right">London, ON</span>
+                        </div>
+                        <div>
+                        <span class=" font-os font-size-18"> Electronics and Embedded Systems Technology </span>  <span class="text-uppercase font-staat font-size-16 text-muted float-right">August 2019</span>
+                        </div>
+                        <p> <br> </p>
+                        <div>
+                        <span class="text-uppercase font-staat font-size-20">Chitkara University :&nbsp;  </span> <span class="font-os font-size-16 text-muted">Bachelor of Technology</span> <span class="text-uppercase font-staat font-size-16 text-muted float-right">Chandigarh, India</span>
+                        </div>
+                        <div>
+                        <span class=" font-os font-size-18"> Electronics and Communications Engineering </span>  <span class="text-uppercase font-staat font-size-16 text-muted float-right">July 2016</span>
+                        </div>
+                        <p> <br><br><br><br><br> </p>
+                    </div>
+                </section>
+
+
+                <!--footer-->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_us">
+                        <div class="do py-5">
+                        <h1 class="text-uppercase font-staat font-size-34">Contact me</h1> <p> <br> </p>
+                        <div>
+                        <span class="text-uppercase font-staat font-size-20">Name :&nbsp;&nbsp; </span> <span class="text-uppercase font-staat font-size-20 text-muted">Karan Chugh </span>
+                        </div>
+                        <p> <br> </p>
+                        <div>
+                        <span class="text-uppercase font-staat font-size-20"> Email:&nbsp;&nbsp; </span></span> <span class="text-uppercase font-staat font-size-20 text-muted">karan_chgh@yahoo.co.in </span>  
+                        </div>
+                        <p> <br> </p>
+                        <div>
+                        <span class="text-uppercase font-staat font-size-20">Contact Number :&nbsp;&nbsp;  </span> <span class="text-uppercase font-staat font-size-20 text-muted">+1 226-973-4368</span> 
+                        </div>
+                        <p> <br> </p>
+                        <div>
+                        <span class="text-uppercase font-staat font-size-20"> Location:&nbsp;&nbsp; </span> </span> <span class="text-uppercase font-staat font-size-20 text-muted">Mississauga, Ontario</span> 
+                        </div>
+                       
+                    </div>
+                        <div class="row bg-light py-5">
+                            <div class="col-sm-4 my-5 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">&copy;2023 KaranChugh. All rights reserved
+                                </h6>
+                            </div>
+                            <div class="col-sm-4 my-4 text-center">
+                                <div class="footer-title">
+                                    <p class="description font-os font-size-16 text-black-50 text-uppercase">Made with ❤
+                                    </p>
+                                </div>
+                                <div id="visitors" class="visitors font-os font-size-26 text-blue-50 text-uppercase"> Visitors: <span id="visits"></span><span id="loader" class="loader"></span></div>
+                            </div>
+                            <div class="social-icons col-sm-4 my-4 text-center">
+                                <a href="https://www.linkedin.com/in/karan-chugh-09a33a156" target="blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/Maverick-Karan/CloudResume-Backend.git" target="blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.credly.com/badges/9a3a8c4a-357e-4d22-a67a-9fa60d509aaa/public_url" target="blank">
+                                    <i class="fab fa-aws"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </main>
+
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+    <script src="./vendor/typed/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
