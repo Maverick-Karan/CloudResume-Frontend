@@ -10,7 +10,8 @@ jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v1
+
       - name: Copy file to S3
         shell: bash
         env:
