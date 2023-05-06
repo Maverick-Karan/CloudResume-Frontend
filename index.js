@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    $.post('https://54zg0mfw5i.execute-api.us-east-1.amazonaws.com/Dev/apiresource')
+    $.post('https://f8vu43cpv2.execute-api.us-east-1.amazonaws.com/Dev/apiresource')
     .done(visitor_counter => {
         $('#loader').hide();
         $('#visits').text(visitor_counter);
