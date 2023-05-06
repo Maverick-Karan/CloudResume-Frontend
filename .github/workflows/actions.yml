@@ -17,7 +17,7 @@ jobs:
         env:
           aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_KEY_ID }}
-          aws_s3_bucket: aws-cloud-resume-challenge-karan-test1
+          aws_s3_bucket: aws-cloud-resume-challenge-karan-test2
           region: us-east-1
         run: |
           sudo apt-get update && sudo apt-get -y install awscli
